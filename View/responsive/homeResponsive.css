@@ -1,0 +1,238 @@
+@media only screen and (max-width: 1200px) {
+    /* độ cao của sản phẩm  */
+    .flashsale12,.spbanchay12,.spquantam12,.giadungnoibat12,.laptopbanchay12,.smartphoneslide12,.tabletslide12,.watchslide12{
+        justify-content: center;
+    }
+    .flashsale1>.card,
+    .spbanchay1>.card,
+    .spquantam1>.card,
+    .giadungnoibat1>.card,
+    .laptopbanchay1>.card,
+    .smartphoneslide1>.card,
+    .tabletslide1>.card,
+    .watchslide1>.card{
+        height: 33.5rem;
+    }
+    .spbc,.spddqt{
+        height: 39rem;
+    }
+    /* sản phẩm ở smartphone, tablet và watch */
+    .smartphoneslide12>.smartphoneslide1,
+    .tabletslide12>.tabletslide1,
+    .watchslide12>.watchslide1 {
+        min-width: 28%;
+        margin-bottom: 0.5rem;
+    }
+    /*Chưa đánh giá*/
+    .rateMessage{
+        font-size: 11px;
+    }
+    .list-group {
+        height: 4rem;
+    }
+    .productName{
+        margin-top: -2rem;
+    }
+    /* đổi màu icon chuyển slide */
+    .icon>.fa-arrow-circle-right,
+    .icon>.fa-arrow-circle-left {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    /* flash sale đếm ngược */
+    #demo {
+        margin-right: 0rem;
+    }
+
+    .flashsale12>.flashsale1{
+        min-width: 26%;
+        margin-bottom: 0.5rem;
+    }
+    .spbanchay12>.spbanchay1,
+    .spquantam12>.spquantam1,
+    .giadungnoibat12>.giadungnoibat1,
+    .laptopbanchay12>.laptopbanchay1 {
+        min-width: 28%;
+        margin-bottom: 0.5rem;
+    }
+    /* height sản phẩm bán chạy và sản phẩm đang được quan tâm */
+    .spbc,
+    .spddqt {
+        height: 75rem;
+    }
+    /* sản phẩm ở smartphone, tablet và watch */
+    .smartphoneslide12>.smartphoneslide1,
+    .tabletslide12>.tabletslide1,
+    .watchslide12>.watchslide1 {
+        min-width: 37%;
+    }
+    .allview{
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* sản phẩm */
+    .flashsale12>.flashsale1{
+        min-width: 37%;
+    }
+    .spbanchay12>.spbanchay1,
+    .spquantam12>.spquantam1,
+    .giadungnoibat12>.giadungnoibat1,
+    .laptopbanchay12>.laptopbanchay1{
+        min-width: 39%;
+    }
+    /* height sản phẩm bán chạy và sản phẩm đang được quan tâm */
+    .spbc,
+    .spddqt {
+        height: 110rem;
+    }
+    .smartphoneslide12>.smartphoneslide1,.tabletslide12>.tabletslide1,.watchslide12>.watchslide1{
+        min-width: 50%;
+    }
+    
+}
+
+@media only screen and (max-width: 532px) {
+    #demo{
+        font-size: 14px;
+    }
+    /* sản phẩm */
+    .flashsale12>.flashsale1{
+        min-width: 40%;
+    }
+    .productPrice{
+        margin-top: 0rem;
+    }
+    
+    .spbanchay12>.spbanchay1,
+    .spquantam12>.spquantam1,
+    .giadungnoibat12>.giadungnoibat1,
+    .laptopbanchay12>.laptopbanchay1{
+        min-width:43%;
+    }
+    /* sản phẩm ở smartphone, tablet và watch */
+    .smartphoneslide12>.smartphoneslide1,
+    .tabletslide12>.tabletslide1,
+    .watchslide12>.watchslide1 {
+        min-width: 42%;
+    }
+    .img1,.img2,.contentPTW{
+        min-width: 100%;
+    }
+    .img3{
+        min-width: 50%;
+    }
+    
+    .carousel-control-next,.carousel-control-prev{
+        width: 6%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #demo{
+        font-size: 13px;
+    }
+     /* sản phẩm */
+    .flashsale12>.flashsale1{
+        min-width: 50%;
+    }
+    .carousel-control-next,.carousel-control-prev{
+        width: 8%;
+    }
+    .spbanchay12>.spbanchay1,
+    .spquantam12>.spquantam1,
+    .giadungnoibat12>.giadungnoibat1,
+    .laptopbanchay12>.laptopbanchay1{
+        min-width: 60%;
+    }
+    /* height sản phẩm bán chạy và sản phẩm đang được quan tâm */
+    .spbc,
+    .spddqt {
+        height: 190rem;
+    }
+    /* sản phẩm ở smartphone, tablet và watch */
+    .smartphoneslide12>.smartphoneslide1,
+    .tabletslide12>.tabletslide1,
+    .watchslide12>.watchslide1 {
+        min-width: 60%;
+    }
+    .productName{
+        margin-top: 0rem;
+    }
+    /* sản phẩm */
+    .flashsale1>.card,
+    .spbanchay1>.card,
+    .spquantam1>.card,
+    .giadungnoibat1>.card,
+    .laptopbanchay1>.card,
+    .smartphoneslide1>.card,
+    .tabletslide1>.card,
+    .watchslide1>.card{
+        height: 35.6rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    /* flash sale đếm ngược */
+    .sub-cat {
+        min-width: 100%;
+    }
+     /* sản phẩm */
+    .flashsale12>.flashsale1{
+        min-width: 60%;
+    }
+    .spbanchay12>.spbanchay1,
+    .spquantam12>.spquantam1,
+    .giadungnoibat12>.giadungnoibat1,
+    .laptopbanchay12>.laptopbanchay1{
+        min-width: 69%;
+    }
+    .smartphoneslide12>.smartphoneslide1,
+    .tabletslide12>.tabletslide1,
+    .watchslide12>.watchslide1 {
+        min-width: 67%;
+    }
+    .carousel-control-next,.carousel-control-prev{
+        width: 10%;
+    }
+    .member>h4{
+        font-size: 18px;
+    }
+
+    .dtandmtbanddh>.row>.col-6 {
+        min-width: 100%;
+    }
+
+    .dtandmtbanddh>.row>.img2>img {
+        border-radius: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    
+     /* sản phẩm */
+    .flashsale12>.flashsale1{
+        min-width: 65%;
+    }
+    .spbanchay12>.spbanchay1,
+    .spquantam12>.spquantam1,
+    .giadungnoibat12>.giadungnoibat1,
+    .laptopbanchay12>.laptopbanchay1{
+        min-width:75%;
+    }
+    .smartphoneslide12>.smartphoneslide1,
+    .tabletslide12>.tabletslide1,
+    .watchslide12>.watchslide1 {
+        min-width: 75%;
+    }
+        
+
+}

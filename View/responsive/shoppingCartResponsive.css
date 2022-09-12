@@ -1,0 +1,173 @@
+@media only screen and (max-width: 1200px) {
+    .likesp12,.viewsp12{
+        justify-content: center;
+    }
+    /* độ cao của sản phẩm  */
+    .likesp1>.card,.viewsp1>.card{
+        height: 29.5rem;
+    }
+    /*Chưa đánh giá*/
+    .rateMessage{
+        font-size: 11px;
+    }
+    .list-group {
+        height: 4rem;
+    }
+    .productName{
+        margin-top: -2rem;
+    }
+    /* đổi màu icon chuyển slide */
+    .icon>.fa-arrow-circle-right,
+    .icon>.fa-arrow-circle-left {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .table-responsive>thead>tr>th {
+        font-size: 13px;
+    }
+    .imgcartsp,.sp{
+        min-width: 100%;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .imgcartsp>a>img{
+        width: 50%;
+        
+    }
+    .spcolumn{
+        width: 30%;
+    }
+    /* tên sản phẩm */
+    .sp>a>h6 {
+        font-size: 15px;
+    }
+
+    /* giá sản phẩm */
+    .price1,
+    .finalprice1,.pricecart {
+        font-size: 15px;
+    }
+
+    /* mã giảm giá */
+    .mgg1 {
+        font-size: 12px;
+    }
+
+    /* button crud */
+    .buttoncrud>.btn {
+        margin-bottom: 0.5rem;
+    }
+
+    .buttoncrud>.tksptt {
+        font-size: 12px;
+    }
+    /* button thanh toán*/
+    .buttonthanhtoan>button{
+        font-size: 20px;
+    }
+    /* có thể bạn sẽ thích */
+    .likesp12>.likesp1,.viewsp12>.viewsp1 {
+        min-width: 28%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .infospcart,.quantity,.pricecart,.buttoncrud{
+        min-width: 12rem;
+    }
+    .imgcartsp>a>img{
+        width: 100%;
+        
+    }
+    
+    .thaotac,
+    .thanhtoan {
+        min-width: 100%;
+    }
+    /* có thể bạn sẽ thích */
+    .likesp12>.likesp1,.viewsp12>.viewsp1  {
+        min-width: 39%;
+    }
+    .productName{
+        margin-top: -1rem;
+    }
+    .likesp1>.card,.viewsp1>.card{
+        height: 31rem;
+    }
+    
+}
+@media only screen and (max-width: 532px){
+    
+    /* có thể bạn sẽ thích */
+    .likesp12>.likesp1,.viewsp12>.viewsp1  {
+         min-width:42%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /* có thể bạn sẽ thích */
+    .likesp12>.likesp1,.viewsp12>.viewsp1  {
+         min-width:50%;
+    }
+    .productName{
+        margin-top: -0.3rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    /* count sản phẩm */
+    .countsp,
+    .muathemsanpham {
+        min-width: 100%;
+    }
+
+    .countsp>h6 {
+        font-size: 20px;
+    }
+
+    /* mua thêm sản phẩm */
+    .muathemsanpham>a {
+        font-size: 15px;
+    }
+    
+    .checkall,
+    .deleteall {
+        min-width: 50%;
+    }
+
+    /* mã giảm giá */
+    .nhapmagiamgia {
+        min-width: 100%;
+        text-align: center;
+    }
+    /* có thể bạn sẽ thích */
+    .likesp12>.likesp1,.viewsp12>.viewsp1  {
+         min-width:60%;
+    }
+    .title-comm{
+        font-size: 15px;
+    }
+    .title-comm .title-holder{
+        min-width: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .title-comm .title-holder {
+        min-width: 100%;
+    }
+    /* có thể bạn sẽ thích */
+    .likesp12>.likesp1,.viewsp12>.viewsp1  {
+         min-width:66%;
+    }
+    .title-comm{
+        font-size: 10px;
+    }
+    .title-comm .title-holder{
+        min-width: 50px;
+    }
+}

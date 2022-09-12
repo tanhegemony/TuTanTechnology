@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1200px){
+    .menucontent>ul>li>.nav-link>button{
+        font-size: 13.3px;
+    }
+    
+}
+@media only screen and (max-width: 991px){
+    .namepage{
+        min-width: 12%;
+        transform: translateY(1rem);
+    }
+    .menucontent{
+        max-width: 88%;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .namepage{
+        min-width: 18%;
+        transform: translateY(0rem);
+    }
+    .menucontent{
+        max-width: 82%;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    .namepage{
+        min-width: 30%;
+        transform: translateY(0rem);
+    }
+    .menucontent{
+        min-width: 100%;
+    }
+    .buttondropdown>a,.updatedate{
+        font-size: 8px;
+    }
+    .buttondropdown>p{
+        font-size: 10px;
+    }
+    
+}
+@media only screen and (max-width: 320px){
+    
+    
+}

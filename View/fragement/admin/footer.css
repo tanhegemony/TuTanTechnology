@@ -1,0 +1,17 @@
+/* footer */
+.footer2{
+    background-color: #223464; 
+}
+/* Bảng quyền */
+.bq>p {
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+/* Giám đốc */
+.gd>p {
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+}

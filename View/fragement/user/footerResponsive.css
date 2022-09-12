@@ -1,0 +1,38 @@
+@media only screen and (max-width: 532px){
+    .cskh>h6,
+    .ttanddvvc>h6,
+    .tdctt>h6,
+    .tud>h6 {
+        font-size: 12px;
+    }
+
+    .cskh>p,
+    .tdctt>p {
+        font-size: 11px;
+    }
+
+    .imgtt>img,
+    .imgdvvc>img {
+        width: 40%;
+    }
+
+    .tud>p>a>img {
+        width: 100%;
+    }
+
+    .info>p>iframe {
+        width: 100%;
+    }
+    .bq>p,.gd>p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px){
+    /* footer */
+    .cskh,
+    .ttanddvvc,
+    .tdctt,
+    .tud {
+        min-width: 50%;
+    }
+}

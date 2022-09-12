@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1200px) {
+    .sanphamtheodanhmuc12>.sanphamtheodanhmuc1 {
+        min-width: 28%;
+    }
+    .productName{
+        margin-top: -2rem;
+    }
+    .sanphamtheodanhmuc1>.card{
+        height:33.7rem;
+    }
+    .countsanpham{
+        min-width: 100%;
+    }
+    .sort{
+        min-width: 100%;
+    }
+    .list-group{
+        height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .blsp {
+        min-width: 50%;
+        
+    }
+    .bolocsanpham{
+        justify-content: center;
+    }
+
+    .sanphamtheodanhmuc {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sanphamtheodanhmuc12>.sanphamtheodanhmuc1 {
+       min-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 532px) {
+    .timkiemnhanhhang12>.col-2{
+        min-width: 20%;
+        margin-bottom: 0.5rem;
+    }
+    .sanphamtheodanhmuc12>.sanphamtheodanhmuc1 {
+        min-width: 40%;
+    }
+    .sort{
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .blsp {
+        min-width: 100%;
+    }
+    
+    .sanphamtheodanhmuc12>.sanphamtheodanhmuc1 {
+        min-width: 50%;
+    }
+    .sanphamtheodanhmuc1>.card{
+        height: 35rem;
+    }
+    .productName{
+        margin-top: -0.3rem;
+    }
+    .timkiemnhanhhang12>.col-2{
+        min-width: 25%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    
+    .sanphamtheodanhmuc12>.sanphamtheodanhmuc1 {
+        min-width: 60%;
+    }
+
+    .timkiemnhanhhang12>.col-2{
+        min-width: 30%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .sanphamtheodanhmuc12>.sanphamtheodanhmuc1 {
+        min-width: 67%;
+    }
+    .duongdan>nav>ol>li {
+        font-size: 15px;
+    }
+
+    .countsanpham>p {
+        font-size: 20px;
+    }
+}

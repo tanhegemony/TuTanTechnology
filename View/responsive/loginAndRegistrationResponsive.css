@@ -1,0 +1,40 @@
+@media only screen and (max-width: 480px) {
+    .modal-footer>.form-group>button {
+        margin-bottom: 0.5rem;
+    }
+
+    .modal-dialog>.modal-content {
+        margin-top: 2rem;
+    }
+
+    .loginnhanh1,
+    .loginnhanh2 {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .modal-header>h5 {
+        font-size: 15px;
+    }
+
+    .modal-body>.row>.form-group>label {
+        font-size: 13px;
+    }
+
+    .modal-body>.row>.form-group>small {
+        font-size: 10px;
+    }
+
+    .modal-body>.row>.col-6>a {
+        font-size: 13px;
+    }
+
+    .modal-footer>.form-group>.btn-default {
+        font-size: 12px;
+    }
+
+    .icon_link>.row>.col-6>.title>p {
+        font-size: 12px;
+    }
+}

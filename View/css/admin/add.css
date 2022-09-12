@@ -1,0 +1,44 @@
+.addForm{
+    background-color: #f8f9fa;
+    border-radius: 10px 10px 0px 0px;
+}
+.nameForm>h3{
+    color: #8bd8c4;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.message>p{
+    color: red; 
+    font-style: italic;
+    font-weight: bolder;
+}
+.addbutton{
+    background-color: #f8f9fa;
+}
+.addbutton>.row>.col>button{
+    margin-bottom: 2rem;
+}
+.addProductButton{
+    background-color: #223464;
+    color: white;
+}
+.addProductButton:hover{
+    background-color: white;
+    color: red;
+}
+.form-group>label{
+    color: black;
+}
+
+
+.buttonFls{
+    background-color: #223464;
+    color: white;
+}
+.buttonFls:hover{
+    background-color: white;
+    color: red;
+}
+
+

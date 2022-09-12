@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1200px) {
+    .smartphoneother12,.sanphamkhac12{
+        justify-content: center;
+    }
+    .smartphoneother1>.card{
+        height: 34rem;
+    }
+     /*Chưa đánh giá*/
+    .rateMessage{
+        font-size: 11px;
+    }
+    .list-group {
+        height: 4rem;
+    }
+    .productName{
+        margin-top: -2rem;
+    }
+    /* đổi màu icon chuyển slide */
+    .icon>.fa-arrow-circle-right,
+    .icon>.fa-arrow-circle-left {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .ndsp,
+    .thongtinkhac {
+        min-width: 100%;
+    }
+
+    .slidectsp,
+    .ctsp {
+        min-width: 50%;
+    }
+
+    .mtanddanhgia,
+    .ch {
+        min-width: 100%;
+    }
+
+    .smartphoneother12>.smartphoneother1,
+    .sanphamkhac12>.sanphamkhac1 {
+        min-width: 28%;
+        margin-bottom: 0.5rem;
+    }
+    .xemthem>.col>p>a{
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .slidectsp {
+        min-width: 70%;
+    }
+    .ndsp>.row{
+        justify-content: center;
+    }
+
+    .ctsp {
+        min-width: 100%;
+    }
+    .productName{
+        margin-top: -1.4rem;
+    }
+    .smartphoneother12>.smartphoneother1,
+    .sanphamkhac12>.sanphamkhac1 {
+        min-width: 39%;
+    }
+
+    .xemthem>.col>p>button {
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 532px) {
+   .smartphoneother12>.smartphoneother1,
+    .sanphamkhac12>.sanphamkhac1 {
+        min-width:43%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .smartphoneother12>.smartphoneother1,
+    .sanphamkhac12>.sanphamkhac1 {
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .slidectsp {
+        min-width: 100%;
+    }
+    .contentRate{
+        min-width: 100%;
+    }
+    .timeRate{
+        min-width: 100%;
+        text-align: end;
+    }
+    .productname>.col>h1 {
+        font-size: 35px;
+    }
+
+    .smartphoneother12>.smartphoneother1,
+    .sanphamkhac12>.sanphamkhac1 {
+       min-width: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .smartphoneother12>.smartphoneother1,
+    .sanphamkhac12>.sanphamkhac1 {
+       min-width: 66%;
+    }
+    .buttonmuahang>.col>button {
+        margin-bottom: 0.5rem;
+    }
+
+    .duongdan>nav>ol>li {
+        font-size: 15px;
+    }
+
+    .productname>.col>h1 {
+        font-size: 30px;
+    }
+
+    .btn,
+    .color {
+        min-width: 100%;
+    }
+    #nz-div-2 h3.tde{
+        font-size: 14px;
+    }
+}

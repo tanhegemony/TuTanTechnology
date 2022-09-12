@@ -1,0 +1,6 @@
+@media only screen and (max-width: 991px){
+    /* Bảng quyền */
+    .bq>p,.gd>p {
+        font-size: 14px;
+    }
+}

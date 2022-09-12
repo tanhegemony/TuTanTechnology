@@ -1,0 +1,316 @@
+.hottitle {
+    font-size: 11px;
+    color: white;
+    background-color: red;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+/*sản phẩm*/
+.sanpham{
+    min-width: 20%;
+}
+.smartphoneother1>.card{
+    height: 34rem;
+}
+.imgProduct>a>img {
+   margin-top: 1rem;
+    width: 80%;
+    transform: translateX(1.5rem);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.imgProduct:hover a img {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.imgProduct{
+    height: 12.5rem;
+}
+/* tên sản phẩm */
+.productname>h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.productname:hover {
+    text-decoration: none;
+}
+.productName{
+    height: 3rem;
+    margin-top: 0.5rem;
+}
+
+/* giá gốc */
+.price {
+    text-decoration: line-through;
+    margin-top: -0.5rem;
+    font-size: 14px;
+}
+
+.finalprice {
+    margin-top: -1rem;
+    font-size: 14px;
+}
+
+/* giá cuối */
+.finalprice>span,
+.price>span {
+    color: red;
+    font-size: 15px;
+    font-variant: small-caps;
+}
+
+/* đánh giá */
+.rate1{
+    text-align: center;
+}
+.rate1:not(:checked)>label {
+    width: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color: #ffd84a;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+.rate1:not(:checked)>label:before {
+    content: '\2605';
+}
+.timeRate>small{
+    width: 50%;
+}
+.rateMessage{
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+/* mã giảm giá */
+.mgg {
+    background-color: red;
+    font-style: italic;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bolder;
+    border-radius: 20px 0px 0px 20px;
+}
+.quantity{
+    text-align: right;
+}
+.quantity>p{
+    font-size: 12px;font-weight: bolder;
+}
+.card-footer{
+    height: 100%;
+}
+.list-group {
+    font-size: 10.7px;
+    height: 3rem;
+}
+/* button AddToCart */
+.addCart>a,.addCart>button {
+    color: white;
+    font-weight: bolder;
+    background-color: #223464;
+    border: 1px solid #223464;
+    font-size: 11px;
+}
+
+.addCart>a:hover,.addCart>button:hover {
+    color: red;
+    background-color: #f8f9fa;
+}
+
+.toast-header>.row>.col>.rateOrComment{
+   float: left;
+   margin-left: 2rem;
+   margin-top: 3px;
+   width: 100%;
+}
+
+
+/* đánh giá */
+.danhgia {
+    width: 100%;
+}
+
+.rate {
+    float: right;
+    padding: 0 10px 0 0;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float: right;
+    width: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 25px;
+    color:#ccc;
+	margin-bottom: 0;
+	line-height: 21px;
+}
+.rate:not(:checked) > label:before {
+    content: '\2605';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.dangbaidanhgia>.col>textarea {
+    width: 100%;
+}
+
+
+
+/* điều khiển slide show */
+.carousel-control-next,
+.carousel-control-prev {
+    width: 3%;
+}
+
+.fa-arrow-circle-left,
+.fa-arrow-circle-right {
+    color: #163341;
+    font-size: 25px;
+}
+/* đường dẫn */
+.duongdan>nav>ol>.breadcrumb-item>a {
+    color: black;
+    font-weight: bolder;
+}
+
+/* điều khiến slide */
+.fa-chevron-circle-left,
+.fa-chevron-circle-right {
+    color: black;
+}
+
+.productname>.col>h1 {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+/* giá sản phẩm */
+.productprice {
+    text-decoration: line-through;
+    color: red;
+    font-style: italic;
+}
+
+/* giảm giá */
+.giamgia {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+/* mua hàng và thêm vào giỏ */
+.buttonmuahang>.col>button {
+    background-color: #223464;
+    border: 1px solid #223464;
+}
+
+/* mô tả và đánh giá */
+.mtanddanhgia>.nav-tabs>.nav-item>.nav-link {
+    color: black;
+    font-weight: bolder;
+    border: 1px solid #223464;
+}
+
+/* viết bài đánh giá */
+.dangbaidanhgia>.col>label {
+    color: red;
+    font-weight: bolder;
+}
+
+.dangbaidanhgia>.col>button {
+    background-color: red;
+    border: 1px solid red;
+    font-weight: bolder;
+}
+
+/* cấu hình */
+.cauhinh>.col>p {
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Tiêu đề xem thêm */
+#nz-div-2 h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-left: 15px solid #223464;
+    border-bottom: 19px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -15px;
+}
+
+#nz-div-2 h3.tde span {
+    background: #223464;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+#nz-div-2 h3.tde {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+#nz-div-2 hr {
+    margin: -34px 0px 54px 0px;
+    border: 1px solid #223464;
+}
+
+/* mua thêm */
+.muathem>.col>h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bolder;
+}

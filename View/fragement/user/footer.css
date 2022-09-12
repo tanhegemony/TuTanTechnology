@@ -1,0 +1,57 @@
+/* footer */
+.imgtt>img,
+.imgdvvc>img {
+    border: 1px solid #163341;
+    border-radius: 20px;
+}
+
+.tdctt>p>a,
+.cskh>p>a {
+    color: black;
+}
+
+.tdctt>p>a:hover,
+.cskh>p>a:hover {
+    text-decoration: none;
+    color: red;
+
+}
+
+.cskh>h6,
+.ttanddvvc>h6,
+.tdctt>h6,
+.tud>h6 {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* thông tin */
+.info>p>a {
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.info>p>a:hover {
+    text-decoration: none;
+}
+
+/* bản quyền */
+.bq {
+    background-color: #163341;
+}
+
+.bq>p {
+    color: white;
+    font-weight: bolder;
+}
+
+/* Giám đốc */
+.gd {
+    background-color: white;
+}
+
+.gd>p {
+    color: #163341;
+    font-weight: bolder;
+}

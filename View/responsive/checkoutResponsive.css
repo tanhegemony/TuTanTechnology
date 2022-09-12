@@ -1,0 +1,67 @@
+@media only screen and (max-width: 991px) {
+
+    /* tên sản phẩm */
+    .sp>a>h6 {
+        font-size: 15px;
+    }
+
+    /* giá sản phẩm */
+    .price1,
+    .finalprice1 {
+        font-size: 13px;
+    }
+
+    .pricecart {
+        font-size: 15px;
+    }
+
+    /* mã giảm giá */
+    .mgg1 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .productinfo,
+    .customerinfo {
+        min-width: 100%;
+    }
+    .contentSuccessOrder>h2{
+       font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .countsp>h4 {
+        font-size: 20px;
+    }
+    .contentSuccessOrder>h2{
+        font-size: 20px;
+     }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .contentSuccessOrder>h2,.continueOrder>button{
+        font-size: 15px;
+     }
+    
+    .imgcartsp,
+    .sp {
+        min-width: 100%;
+    }
+
+    .imgcartsp>a>img {
+        width: 60%;
+    }
+
+    .title-comm .title-holder {
+        min-width: 100%;
+    }
+
+    /* button hoàn tất đặt hàng */
+    .buttonhoantat>button {
+        font-size: 15px;
+    }
+}

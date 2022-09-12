@@ -1,0 +1,48 @@
+.card-header{
+    color: #223464;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sp>h6{
+    font-size: 18px;
+    color: red;
+    font-weight: bolder;
+}
+.thaotac>form>button{
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+.filterOrder>a{
+    font-size: 12px;
+}
+.namesp>h6{
+    font-size: 18px;
+    color: red;
+    font-weight: bolder;
+}
+/* đánh giá */
+.danhgia {
+    width: 100%;
+}
+
+.rate {
+    text-align: center;
+}
+
+.rate:not(:checked)>label {
+    width: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color: #ffd84a;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+.rate:not(:checked)>label:before {
+    content: '\2605';
+}
+

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1200px){
+    .nametitle{
+        height: 10rem;
+    }
+    .chart,.userdangonline{
+        min-width: 70%;
+        transform: translateX(8rem);
+    }
+    .nametitle>.col-md>.card-title{
+        font-size: 16px;
+    }
+    .ct>.card-body>.card-text{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .content{
+        max-width: 72%;
+    }
+    .nametitle{
+        height: 16rem;
+    }
+    .no-gutters>.col-md-5{
+        min-width: 50%;
+        transform: translateX(2rem);
+    }
+    .no-gutters>.col-md-7{
+        min-width: 100%;
+    }
+    .chart,.userdangonline{
+        min-width: 100%;
+        transform: translateX(0rem);
+    }
+}
+@media only screen and (max-width: 767px){
+    .content{
+        max-width: 55%;
+    }
+    .content1,.content2,.content3,.content4,.content5,.content6{
+        min-width: 50%;
+    }
+    .nametitle{
+        height: 16rem;
+    }
+    .no-gutters>.col-md-5>img{
+        width: 30%;
+    }
+    .no-gutters>.col-md-5{
+        min-width: 50%;
+        transform: translateX(2.5rem);
+    }
+    .chart,.userdangonline{
+        min-width: 100%;
+        transform: translateX(0rem);
+    }
+}
+@media only screen and (max-width: 623px){
+    .content1,.content2,.content3,.content4,.content5,.content6{
+        min-width: 70%;
+        transform: translateX(2.5rem);
+    }
+    .chart,.userdangonline{
+        min-width: 200%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .content1,.content2,.content3,.content4,.content5,.content6{
+        min-width: 50%;
+        transform: translateX(0rem);
+    }
+    .content{
+        max-width: 100%;
+    }
+    .nametitle{
+        height: 16rem;
+    }
+    .chart{
+        min-width: 160%;
+        transform: translateX(0rem);
+    }
+    .userdangonline{
+        min-width: 100%;
+    }
+}
+

@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1200px) {
+    .sanphamtheoketquatimkiem12,.likesp12{
+        justify-content: center;
+        
+    }
+    .list-group{
+        height: 4rem;
+    }
+     /*Chưa đánh giá*/
+    .rateMessage{
+        font-size: 11px;
+    }
+    .list-group {
+        height: 4rem;
+    }
+    .productName{
+        margin-top: -2rem;
+    }
+    /* đổi màu icon chuyển slide */
+    .icon>.fa-arrow-circle-right,
+    .icon>.fa-arrow-circle-left {
+        color: white;
+    }
+}
+@media only screen and (max-width: 991px) {
+
+    .sanphamtheoketquatimkiem12>.sanphamtheoketquatimkiem1,.likesp12>.likesp1 {
+        min-width: 28%;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+
+    .countsanpham,
+    .sort {
+        min-width: 100%;
+    }
+
+    .sanphamtheoketquatimkiem12>.sanphamtheoketquatimkiem1,.likesp12>.likesp1 {
+         min-width: 39%;
+    }
+    .productName{
+        margin-top: -1rem;
+    }
+}
+
+@media only screen and (max-width: 532px) {
+    .sanphamtheoketquatimkiem12>.sanphamtheoketquatimkiem1,.likesp12>.likesp1 {
+        min-width:42%;
+    }
+    .productPrice{
+        margin-top: 0rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .sanphamtheoketquatimkiem12>.sanphamtheoketquatimkiem1,.likesp12>.likesp1 {
+       min-width: 50%;
+    }
+    .productName{
+        margin-top: 0rem;
+    }
+   
+}
+
+@media only screen and (max-width: 380px) {
+    
+    .sanphamtheoketquatimkiem12>.sanphamtheoketquatimkiem1,.likesp12>.likesp1 {
+       min-width: 60%;
+    }   
+}
+
+@media only screen and (max-width: 320px) {
+    .sanphamtheoketquatimkiem12>.sanphamtheoketquatimkiem1,.likesp12>.likesp1 {
+       min-width: 67%;
+    } 
+    .duongdan>nav>ol>li {
+        font-size: 15px;
+    }
+    .title-comm .title-holder{
+        min-width: 50px;
+    }
+    .title-comm{
+        font-size: 15px;
+    }
+    .countsanpham>p {
+        font-size: 20px;
+    }
+
+    
+}

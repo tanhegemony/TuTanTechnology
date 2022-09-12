@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1200px){
+     /* ảnh logo */
+    .imglogo>a>img {
+        min-width: 150%;
+    }
+
+    /* chữ ở menu1 */
+    .menu1>.col>ul>li>a {
+        font-size: 12px;
+    }
+    .dmsp>.dropdown>button{
+        font-size: 12px;
+    }
+    /* chữ ở menu2 */
+    .menu2>.col>nav>.collapse>ul>li>a {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 991px){
+    /* tên website */
+    .name>h3 {
+        font-size: 15px;
+    }
+
+    /* phụ đề website */
+    .name>h6 {
+        font-size: 14px;
+    }
+
+    /* ảnh logo */
+    .imglogo>a>img {
+        min-width: 180%;
+    }
+
+    /* nút thả menu2 */
+    .menu2>.col>nav>button {
+        background-color: white;
+    }
+}
+@media only screen and (max-width: 767px){
+    .imglogo {
+        min-width: 15%;
+    }
+
+    .name {
+        min-width: 75%;
+        transform: translateX(2rem);
+    }
+
+    .name>h3 {
+        font-size: 20px;
+    }
+
+    .name>h6 {
+        font-size: 18px;
+    }
+
+    .menu {
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width: 380px){
+    .imglogo {
+        min-width: 20%;
+    }
+
+    .name {
+        min-width: 68%;
+        transform: translateX(1rem);
+    }
+}
+

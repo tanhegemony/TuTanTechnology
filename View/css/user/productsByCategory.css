@@ -1,0 +1,222 @@
+/* đường dẫn */
+.duongdan>nav>ol>.breadcrumb-item>a {
+    color: black;
+    font-weight: bolder;
+}
+
+/* kẻ dưới slideshow */
+.slideshow>li {
+    background-color: #223464;
+}
+
+.slideshow {
+    transform: translateY(1.9rem);
+}
+
+/* điều khiển slide show */
+.fa-arrow-circle-left,
+.fa-arrow-circle-right,
+.fa-chevron-left,
+.fa-chevron-right {
+    color: #223464;
+}
+
+.slidepre,
+.slidenext {
+    width: 1%;
+}
+
+/* bộ lọc sản phẩm */
+#nz-div-3 h3.tde span {
+    background: #223464;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    border-radius: 23px 23px 0px 0px;
+}
+
+#nz-div-3 h3.tde {
+    text-align: center;
+    margin: 15px 0;
+    border-bottom: 2px solid #223464;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.blsp>.accordion>.row>.col>button {
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+
+.blsp>.accordion>.row>.col>.collapse>.row>.col-6>a,
+.blsp>.accordion>.row>.col>.collapse>.row>.col-12>a {
+    font-size: 13px;
+    color: black;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+/* số sản phẩm hiển thị */
+.countsanpham>p {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.countsanpham>p>span {
+    color: red;
+}
+
+.hottitle {
+    font-size: 11px;
+    color: white;
+    background-color: red;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+/*sản phẩm*/
+.sanpham{
+    min-width: 23%;
+    margin-bottom: 0.5rem;
+}
+.sanphamtheodanhmuc12,.sanphamtheodanhmuc1{
+    justify-content: center;
+}
+.sanphamtheodanhmuc1>.card{
+    height:35.7rem;
+}
+.imgProduct>a>img {
+   margin-top: 1rem;
+    width: 80%;
+    transform: translateX(1.5rem);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.imgProduct:hover a img {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.imgProduct{
+    height: 12.5rem;
+}
+/* tên sản phẩm */
+.productname>h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.productname:hover {
+    text-decoration: none;
+}
+.productName{
+    height: 3rem;
+    margin-top: 0.5rem;
+}
+
+/* giá gốc */
+.price {
+    text-decoration: line-through;
+    margin-top: -0.5rem;
+    font-size: 14px;
+}
+
+.finalprice {
+    margin-top: -1rem;
+    font-size: 14px;
+}
+
+/* giá cuối */
+.finalprice>span,
+.price>span {
+    color: red;
+    font-size: 15px;
+    font-variant: small-caps;
+}
+
+/* đánh giá */
+.danhgia {
+    width: 100%;
+}
+
+.rate {
+    text-align: center;
+}
+
+.rate:not(:checked)>label {
+    width: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color: #ffd84a;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+.rate:not(:checked)>label:before {
+    content: '\2605';
+}
+.rateMessage{
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+/* mã giảm giá */
+.mgg {
+    background-color: red;
+    font-style: italic;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bolder;
+    border-radius: 20px 0px 0px 20px;
+}
+.quantity{
+    text-align: right;
+}
+.quantity>p{
+    font-size: 12px;font-weight: bolder;
+}
+.card-footer{
+    height: 100%;
+}
+.list-group {
+    font-size: 10.7px;
+    height: 3.5rem;
+}
+/* button AddToCart */
+.addCart>a,.addCart>button {
+    color: white;
+    font-weight: bolder;
+    background-color: #223464;
+    border: 1px solid #223464;
+    font-size: 11px;
+}
+
+.addCart>a:hover,.addCart>button:hover {
+    color: red;
+    background-color: #f8f9fa;
+}

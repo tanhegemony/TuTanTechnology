@@ -1,0 +1,28 @@
+.headerNav{
+    background-color: #223464;
+}
+.contentNav{
+    background-color: #f8f9fa;
+}
+.flex-column>a{
+    color: white;
+    text-align: center;
+}
+.headerNav>.nav-pills>.active{
+    background-color: #f8f9fa;
+    color: black;
+}
+.nameContentNav>h2,.nameContentNav>h6{
+    color: #223464;
+}
+.nameContentNav>h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.buttonSave>.save{
+    background-color: #223464;color: white;
+}
+.message>p{
+    color: red; 
+    font-style: italic;
+    font-weight: bolder;
+}

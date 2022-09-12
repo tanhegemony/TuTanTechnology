@@ -1,0 +1,79 @@
+/* tên website */
+.name>h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    font-variant: initial;
+}
+
+.name>h6 {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* menu */
+.menu1,
+.menu2 {
+    border: 1px solid #223464;
+    background-color: #223464;
+    border-radius: 10px;
+}
+
+.menu1>.col>ul>li>a:hover,
+.menu2>.col>nav>.collapse>ul>li>a:hover {
+    color: red;
+}
+
+/* tìm kiếm */
+.sbox {
+    position: relative;
+}
+
+.stext {
+    width: 200px;
+    height: 50px;
+    background: white;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: black;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.fa-search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 16px;
+    margin-top: 16px;
+    z-index: 1;
+    color: black;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bolder;
+
+}
+
+/* danh mục xổ */
+.dropdown-menu {
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-menu>a:hover {
+    background-color: #6c757d;
+    border-radius: 10px;
+    color: white;
+}
+
+.dropdown-menu>span {
+    font-size: 15px;
+    background-color: #223464;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+}

@@ -1,0 +1,80 @@
+body {
+    background-color: #0d141f;
+}
+
+.modal-dialog>.modal-content {
+    background-color: #0d141f;
+    margin-top: 4rem;
+    box-shadow: 5px 10px 18px gray;
+}
+
+.modal-header>h5 {
+    color: white;
+    font-weight: bolder;
+}
+
+.modal-body>.row>.form-group>label {
+    color: white;
+}
+
+.modal-body>.row>.col-6>a {
+    color: white;
+}
+
+.modal-body>.row>.col-6>a:hover {
+    text-decoration: none;
+}
+
+.modal-footer>.form-group>.btn-default {
+    background-color: black;
+    color: white;
+}
+
+.icon_link>.row>.col-6>.title>p {
+    color: white;
+}
+
+/* icon link */
+.fa-facebook,
+.fa-google,
+.fa-instagram,
+.fa-twitter {
+    color: white;
+    background-color: #202020;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+}
+
+.fa-facebook:hover,
+.fa-google:hover,
+.fa-instagram:hover,
+.fa-twitter:hover {
+    color: black;
+}
+
+.fa-facebook:hover {
+    background-color: blue;
+}
+
+.fa-google:hover {
+    background-color: #f7432e;
+}
+
+.fa-instagram:hover {
+    background-color: palevioletred;
+}
+
+.fa-twitter:hover {
+    background-color: lightblue;
+}
+
+.icon_link>.row>.col-6>a:hover {
+    text-decoration: none;
+}
+.message>p{
+    color: red; 
+    font-style: italic;
+    font-weight: bolder;
+}

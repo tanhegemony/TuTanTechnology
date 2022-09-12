@@ -1,0 +1,339 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hottitle {
+    font-size: 11px;
+    color: white;
+    background-color: red;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+.saletitle {
+    font-size: 11px;
+    color: white;
+    background-color: red;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+/*sản phẩm*/
+.sanpham{
+    min-width: 20%;
+}
+.flashsale1>.card{
+    height:34rem;
+}
+
+
+
+.imgProduct>a>img {
+   margin-top: 1rem;
+    width: 80%;
+    transform: translateX(1.5rem);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.imgProduct:hover a img {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+.imgProduct{
+    height: 12.5rem;
+}
+/* tên sản phẩm */
+.productname>h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.productname:hover {
+    text-decoration: none;
+}
+.productName{
+    height: 3rem;
+    margin-top: 0.5rem;
+}
+
+/* giá gốc */
+.price {
+    text-decoration: line-through;
+    margin-top: -0.5rem;
+    font-size: 14px;
+}
+
+.finalprice {
+    margin-top: -1rem;
+    font-size: 14px;
+}
+
+/* giá cuối */
+.finalprice>span,
+.price>span {
+    color: red;
+    font-size: 15px;
+    font-variant: small-caps;
+}
+
+/* đánh giá */
+.danhgia {
+    width: 100%;
+}
+
+.rate {
+    text-align: center;
+}
+
+.rate:not(:checked)>label {
+    width: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color: #ffd84a;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+.rate:not(:checked)>label:before {
+    content: '\2605';
+}
+.rateMessage{
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+/* mã giảm giá */
+.mgg {
+    background-color: red;
+    font-style: italic;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bolder;
+    border-radius: 20px 0px 0px 20px;
+}
+.quantity{
+    text-align: right;
+}
+.quantity>p{
+    font-size: 12px;font-weight: bolder;
+}
+.card-footer{
+    height: 100%;
+}
+.list-group {
+    font-size: 10.7px;
+    height: 3rem;
+}
+/* button AddToCart */
+.addCart>a,.addCart>button {
+    color: white;
+    font-weight: bolder;
+    background-color: #223464;
+    border: 1px solid #223464;
+    font-size: 11px;
+}
+
+.addCart>a:hover,.addCart>button:hover {
+    color: red;
+    background-color: #f8f9fa;
+}
+/* điều khiển slide show */
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%;
+}
+
+.fa-arrow-circle-left,
+.fa-arrow-circle-right {
+    color: #163341;
+    font-size: 25px;
+}
+
+/* Xem tất cả */
+.allview>a {
+    float: right;
+    margin-right: 4rem;
+    margin-top: -2rem;
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #f8f9fa;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.allview>a:hover,
+.all>a:hover {
+    text-decoration: none;
+}
+
+.all>a {
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #f8f9fa;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+/* tiêu đề flash sale */
+div#nz-div {
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+    display: block;
+}
+
+#nz-div h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#nz-div h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+
+#nz-div h3.tde span {
+    background: black;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+.sub-cat {
+    margin: 0;
+    line-height: 45px;
+    margin-left: 100px;
+    float: right;
+}
+
+/* flash sale */
+#demo {
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+    float: right;
+    margin-right: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sản phẩm bán chạy */
+.spbc {
+    border: 5px solid red;
+    border-radius: 20px 20px 0px 0px;
+    height: 39.5rem;
+}
+
+.title>h2 {
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+/* sản phẩm đang được quan tâm */
+.spquantam1>.card,.giadungnoibat1>.card,.laptopbanchay1>.card,.spbanchay1>.card{
+    height:35rem;
+}
+.spddqt {
+    border: 5px solid red;
+    border-radius: 0px 0px 20px 20px;
+    height: 39.5rem;
+}
+
+/* gia dụng nổi bật */
+.gdnb {
+    background-color: #18507e;
+    border-radius: 20px;
+}
+
+/* laptop nổi bật */
+.ltnb {
+    background-color: #e42731;
+    border-radius: 20px;
+}
+
+/* smartphone & tablet & watch */
+.dtandmtbanddh>.row>.col-6>img {
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #163341;
+}
+
+.watch {
+    background-color: #163341;
+    border-radius: 10px;
+}
+
+.smartphoneslide1>.card,.tabletslide1>.card,.watchslide1>.card{
+    height: 36rem;
+}
+
+/* hộp thoại thành viên */
+.htdktv {
+    background-color: #163341;
+}
+
+/* tiêu đề hộp thoại */
+.nameht>h5 {
+    color: white;
+    font-family: Muli, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* button tìm hiểu thêm */
+.buttontht>a {
+    background-color: green;
+    color: white;
+}
+
+/* button đăng ký thành viên */
+.dangkytv>form>button {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+

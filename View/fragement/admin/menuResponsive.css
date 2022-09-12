@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1200px){
+    .userdangnhap>button>p{
+        font-size: 16px;
+    }
+    .flex-column>li>a{
+        font-size: 13.6px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .menu{
+        min-width: 28%;
+    }
+    .chuMenu{
+        font-size: 14px;
+    }
+    .userdangnhap>button>p{
+        font-size: 13px;
+    }
+    .flex-column>li>a{
+        font-size: 12px;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .menu{
+        min-width: 45%;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    .menu{
+        min-width: 70%;
+        transform: translateX(3.5rem);
+    }
+    .userdangnhap>.dropdown-menu>a{
+       font-size: 10px;
+    }
+    .userdangnhap>.dropdown-menu{
+       margin-top: 5rem;
+       float: right;
+       margin-right: 14rem;
+    }
+    .logout{
+        transform: translateX(-5rem);
+    }
+    
+}
+@media only screen and (max-width: 320px){
+    .menu{
+        min-width: 100%;
+         transform: translateX(0rem);
+    }
+    
+}

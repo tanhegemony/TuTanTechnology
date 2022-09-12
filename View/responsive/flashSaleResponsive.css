@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1200px){
+    .sanpham{
+        min-width: 20%;
+    }
+    .flashsale12,.spbanchay12,.spquantam12,.giadungnoibat12,.laptopbanchay12,.smartphoneslide12,.tabletslide12,.watchslide12{
+        justify-content: center;
+    }
+    .flashsale1>.card{
+        height: 35rem;
+    }
+    /*Chưa đánh giá*/
+    .rateMessage{
+        font-size: 11px;
+    }
+    .list-group {
+        height: 4rem;
+    }
+    .productName{
+        margin-top: -0.5rem;
+    }
+    .fl>.card>.card-body>.card-title{
+        font-size: 18px;
+    }
+    .fl>.card>.card-body>p{
+        font-size: 15px;
+    }
+    .fl>.card{
+        height: 18rem;
+    }
+}
+@media only screen and (max-width: 991px){
+     /* sản phẩm */
+    .flashsale12>.flashsale1{
+        min-width: 25%;
+    }
+    .productName{
+        margin-top: 1rem;
+    }
+    .flashsale1>.card{
+        height: 36.5rem;
+    }
+    .fl>.card>.card-body>.card-title{
+        font-size: 15px;
+    }
+    .fl>.card>.card-body>p{
+        font-size: 14px;
+    }
+    .fl>.card{
+        height: 15rem;
+    }
+    .imgFL,.sort{
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    /* sản phẩm */
+    .flashsale12>.flashsale1{
+        min-width: 35%;
+    }
+    .productName{
+        margin-top: 0.8rem;
+    }
+    .fl{
+        min-width: 25%;
+    }
+    .fl>.card{
+        height: 20rem;
+    }
+}
+@media only screen and (max-width: 767px){
+    /* sản phẩm */
+    .flashsale12>.flashsale1{
+        min-width: 31%;
+    }
+    .productName{
+        margin-top: 0.8rem;
+    }
+    .fl{
+        min-width: 25%;
+    }
+    .fl>.card{
+        height: 20rem;
+    }
+}
+@media only screen and (max-width: 623px){
+    .flashsale12>.flashsale1{
+        min-width: 36%;
+    }
+    .productName{
+        margin-top: 0rem;
+    }
+}
+@media only screen and (max-width: 523px){
+    .flashsale12>.flashsale1{
+        min-width: 40%;
+    }
+    .productName{
+        margin-top: 0rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .flashsale12>.flashsale1{
+        min-width: 50%;
+    }
+    .fl{
+        min-width: 37%;
+        margin-bottom: 0.8rem;
+    }
+    .fl>.card{
+        height: 16rem;
+    }
+}
+@media only screen and (max-width: 380px){
+    .flashsale12>.flashsale1{
+        min-width: 60%;
+    }
+    .fl{
+        min-width: 50%;
+        margin-bottom: 0.8rem;
+    }
+}
+@media only screen and (max-width: 380px){
+    .flashsale12>.flashsale1{
+        min-width: 65%;
+    }
+}

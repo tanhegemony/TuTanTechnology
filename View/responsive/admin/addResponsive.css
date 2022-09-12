@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 991px){
+    .content{
+         max-width: 72%;
+    }
+    /* khách hàng */
+    .imageCustomer{
+        min-width: 50%;
+    }
+    .contentCustomer{
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .content{
+        max-width: 55%;
+    }
+    /* khách hàng */
+    .imageCustomer{
+        min-width: 70%;
+    }
+    .customerName,.customerPhone,.customerEmail,.customerAddress,.customerNameAddress{
+        min-width: 100%;
+    }
+    /*product detail*/
+    .detail1,.detail2{
+        min-width: 100%;
+    }
+    .nameform{
+        min-width: 80%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 623px){
+    .form-inline>.form-check>label{
+       float: right;
+       margin-right: 6rem;
+    }
+    /* flash sale*/
+    .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, 
+    .input-group>.form-control-plaintext{
+        width: 70%;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    .content{
+        min-width: 100%;
+    }
+    /* flash sale*/
+    .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, 
+    .input-group>.form-control-plaintext{
+        width: 1%;
+    }
+}
